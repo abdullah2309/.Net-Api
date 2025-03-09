@@ -12,7 +12,7 @@ namespace api_test.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class productsController : ControllerBase
-    {
+    {    
         private readonly mydbcontext _context;
 
         public productsController(mydbcontext context)
