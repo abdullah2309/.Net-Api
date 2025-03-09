@@ -13,6 +13,7 @@ builder.Services.AddDbContext<mydbcontext>(a => a.UseSqlServer("Server=DESKTOP-K
 builder.Services.AddCors(builder => builder.AddPolicy("AllowAll", a => 
 a.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
+//abdullah //
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
