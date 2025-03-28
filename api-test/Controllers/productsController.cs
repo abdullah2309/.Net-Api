@@ -83,8 +83,6 @@ namespace api_test.Controllers
             return CreatedAtAction("Getproduct", new { id = product.id }, product);
         }
 
-        // DELETE: api/products/5
-        // DELETE: api/products/5
         [HttpDelete("{id}")]
         public async Task<IActionResult> Deleteproduct(int id)
         {
