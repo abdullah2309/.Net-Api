@@ -16,6 +16,8 @@ a.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 //abdullah //
 var app = builder.Build();
 
+//for swagger//
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
