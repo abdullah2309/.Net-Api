@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddDbContext<mydbcontext>(a => a.UseSqlServer("Server=DESKTOP-KHBGNKV\\MSSQLSERVER01; Database=apitest ;trusted_connection=true; TrustServerCertificate=true;"));
+builder.Services.AddDbContext<mydbcontext>(a => a.UseSqlServer("Server=DESKTOP-KHBGNKV\\SQLEXPRESS; Database=apitest ;trusted_connection=true; TrustServerCertificate=true;"));
 builder.Services.AddCors(builder => builder.AddPolicy("AllowAll", a => 
 a.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()));
 
