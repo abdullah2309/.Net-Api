@@ -17,7 +17,7 @@ namespace api_test.Controllers
 
         public UsersController(mydbcontext context)
         {
-            _context = context;
+            _context = context; 
         }
 
         // GET: api/Users
